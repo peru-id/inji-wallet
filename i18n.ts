@@ -40,7 +40,7 @@ i18next
       populateLanguageCodeMap();
     }
     if (!Object.keys(SUPPORTED_LANGUAGES).includes(i18next.language)) {
-      i18next.changeLanguage('en');
+      i18next.changeLanguage('es');
       populateLanguageCodeMap();
     }
   });
